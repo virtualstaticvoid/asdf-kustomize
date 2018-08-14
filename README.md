@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/virtualstaticvoid/asdf-kustomize.svg?branch=master)](https://travis-ci.org/virtualstaticvoid/asdf-kustomize)
 
-`kustomize` plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+[`kustomize`][util] plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
@@ -13,3 +13,5 @@ asdf plugin-add kustomize https://github.com/virtualstaticvoid/asdf-kustomize.gi
 ## Use
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install & manage versions of kustomize.
+
+[util]: https://github.com/kubernetes-sigs/kustomize
