@@ -31,10 +31,9 @@ get_platform() {
 get_download_url() {
   local install_type=$1
   local version=$2
-
-  local file_version=$(echo $version | cut -c 2-)
   local platform=$(get_platform)
-  echo "https://github.com/kubernetes-sigs/kustomize/releases/download/${version}/kustomize_${file_version}_${platform}_amd64"
+
+  echo "https://github.com/kubernetes-sigs/kustomize/releases/download/v${version}/kustomize_${version}_${platform}_amd64"
 }
 
 install_plugin "$ASDF_INSTALL_TYPE" "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH"
