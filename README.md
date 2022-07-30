@@ -2,9 +2,9 @@
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/virtualstaticvoid/asdf-kustomize/Main%20Workflow?style=flat-square)](https://github.com/virtualstaticvoid/asdf-kustomize/actions)
 
-[`kustomize`][util] plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+**NOTE:** If you are using Kubernetes versions greater than 1.14 then you won't need this plugin. See [kustomize README][note] for more information.
 
-_NOTE:_ If you are using Kubernetes versions greater than 1.14 then you won't need this plugin. See [kustomize README][note] for more information.
+[`kustomize`][util] plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
